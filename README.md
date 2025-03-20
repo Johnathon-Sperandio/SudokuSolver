@@ -1,7 +1,6 @@
 ***\*WARNING: DEVELOPEMENT IN PROGRESS; INFORMATION SUBJECT TO CHANGE\****
 ________________________________________________
 # SudokuSolver v0.0
-________________________________________________
 
 ### This is an automatic Sodoku Solver that utilizes backtracking and number storage to efficiently solve Sudoku puzzles
 
@@ -10,7 +9,6 @@ ________________________________________________
 
 ________________________________________________
 # Basic Info
-________________________________________________
 
 ## Structure:
 
@@ -30,8 +28,8 @@ ________________________________________________
 
 There following sub-structures will be kept track of for use in the code:
 
-1. Each Column (9)
-2. Each Row (9)
+1. Each Row (9) (groups denoted by alphabet)
+2. Each Column (9) (groups denoted by number)
 3. Each Group of 9 blocks (Grid) in the puzzle (9)
     1. The grids are noted by grouping the **bold** and *italicized* blocks.
 
